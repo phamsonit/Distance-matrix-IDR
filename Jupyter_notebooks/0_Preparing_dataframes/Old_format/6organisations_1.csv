@@ -1,0 +1,9 @@
+ID,Name,Disciplines,when_added
+42b93a3b-66f6-4629-8a85-1c7ccda14c40,Research Unit Public Law,['050502'],1
+ed643089-2fc0-4b9c-9992-e2ef64944250,Computer Sciences,[],1
+bace05d3-5a37-42a6-90e2-6fe818937cdb,Department of Electrical Engineering (ESAT),"['029999', '020209', '020299', '020205', '020206']",1
+c1488dbe-1f72-4548-9799-32301dfedd40,Hepatology,"['030114', '030614', '030110', '030610', '030129', '030403', '030629']",1
+2af46448-9095-4116-8fcf-6ae6b170cc0d,Mathematics-Physics-Informatics,[],1
+9584090f-262f-4eef-a81c-5307d8f80be9,Institute of Private International Law,['050502'],1
+e6cc2bcd-21a4-4266-b8f5-c74bed27478c,Faculty of Sciences,"['010101', '010102', '010103', '010106', '010107', '010201', '010202', '010204', '010205', '010207', '010208', '010209', '010304', '010306', '010311', '010401', '010402', '010403', '010405', '010406', '010601', '010602', '010604', '010605', '010607', '010608', '010609', '010610', '010701', '010703', '020504', '020506', '030102', '030121', '030303', '030604']",1
+67f1fec9-585d-4d12-a178-8bc285cc8593,Leuven Centre for Global Governance Studies,['059999'],1

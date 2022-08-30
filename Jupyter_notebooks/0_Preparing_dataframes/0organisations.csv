@@ -1,0 +1,91 @@
+ID,Name,Disciplines,when_added
+45ff2fc2-f78b-489c-ae38-b6fca2022521,Department of Political Sciences,['050404'],0
+f28fd86e-fce7-4c98-90fb-015b1a4e5523,Earth System Sciences,"['010703', '029901', '020406', '060101', '060104', '060409', '060105', '020106', '010505', '010605', '010504', '010503', '01030114', '010502', '020111', '010506']",0
+2b317cdb-3a20-47d7-b2bd-75aa36eb9734,Hydrology and Hydraulic Engineering,"['020307', '010503', '020112']",0
+adbfa1d6-6a4b-4abf-8dc4-ea71c647af26,Department of Biochemistry and microbiology,"['010602', '010608']",0
+3420d399-29f4-4edf-9f9d-252e7b1d400d,"Urban Design, Urbanism, Landscape and Planning","['020109', '020111']",0
+eda251f4-4796-4ac5-a6de-0e58a70f58aa,Department of Archaeology,['060101'],0
+b9b3c61e-650e-4463-a0e2-6de8f49917ba,Biomechanics Section,"['030103', '030603', '030126', '030626', '030134', '030403', '030634', '020601', '020602', '020603', '020604', '020699']",0
+d4a49766-ed89-4de9-a06b-3c45f728354f,Movement Control & Neuroplasticity Research Group,['050301'],0
+f74d3c9c-2f54-4b95-9b41-61afcfe2a878,"Forest, Nature and Landscape",['010703'],0
+f1d31716-0293-4cd8-b883-eae9a3e57dbf,Soil and Water Management,['010704'],0
+3597372b-603f-4e36-95a9-f6dc37270c36,Faculty of Movement and Rehabilitation Sciences,"['030126', '030402', '030405', '030626']",0
+4c3d49cc-8736-470b-8b73-df3dfe650617,"Mechanical Engineering Technology, Group T Leuven Campus","['020308', '020306']",0
+4ad02e7f-d5fa-4d66-98bb-d2f63929649a,"Robotics, Automation and Mechatronics (RAM)",['020308'],0
+8d465769-007e-416c-8c12-74f61384c74d,Laboratory for Cognitive Neurology,"['030123', '030623', '050103', '050105', '050106']",0
+612605e0-ead6-4e3e-b258-8a10285564f1,Institute for International Law,"['050502', '050599']",0
+c67d5ec0-4ab8-48f8-a774-ee86f23cc2c8,Department of Biomolecular Medicine,['030121'],0
+16a28d37-6005-49e4-be1b-46b8c76f6640,Department of Information technology,"['020801', '020206', '020202']",0
+c924d925-23d3-4cda-92b8-52c8e52e2620,Department of Data analysis and mathematical modelling,['010603'],0
+f5af8a62-9241-49f1-bd56-a0aea67c9fce,Translational Research in GastroIntestinal Disorders,"['030109', '030609', '030110', '030610', '030501', '030502', '030504', '030506', '030507', '030508', '030509', '030510', '030599']",0
+139a6099-d605-4adc-8aea-f16604081f68,Department of Electronics and information systems,"['020801', '020206', '010201']",0
+a65489f7-201e-4057-83a2-95ff0fb7bc01,Department of Head and Skin,['030107'],0
+9a9b5baa-3653-4c7f-a52c-20cb023d54c6,Centre for Logic and Philosophy of Science,"['060399', '060301', '060302', '060303', '050304', '050801']",0
+58b47c4b-995b-4a44-a894-62b6e44eb31b,Environmental Biology,"['010606', '010610', '020406', '030301']",0
+0e8b1554-fd72-44f0-8605-ce2215426914,Bio-Physics,['030104'],0
+2d6e4765-fb1b-48da-b941-9076730b0db3,"Research Centre of Public Economics, Leuven","['050201', '050204', '050205', '050209', '050210']",0
+67f1fec9-585d-4d12-a178-8bc285cc8593,Leuven Centre for Global Governance Studies,['059999'],0
+3f33b450-5fc3-482d-81fa-63251bdc9746,Structural Mechanics Section,"['020104', '020105', '020106', '020110']",0
+6214b1dc-1d47-4bf7-a0bb-ba5898b0be01,Toxicological Centre,"['010407', '010499', '010699', '010701', '010703', '030401', '030501', '030502', '030504', '030506', '030507', '030508', '030509', '030510', '030599']",0
+686cf9b5-adbf-4046-9361-c41438aff052,"Modernity & Society 1800-2000, Leuven","['060102', '060104', '060199', '060403', '060404', '060405', '060407', '060410', '060411', '060412', '060499', '069901', '069902']",0
+c03640b3-4e66-4fb5-87a9-a64ac4cdd230,Laboratory of adsorption and catalysis (LADCA),"['010402', '010405', '010406', '010408', '010499']",0
+632e0796-61dd-4207-8259-f0a305abb591,"Sustainable Energy, Air and Water Technology (DuEL)","['010406', '010407', '010701', '010703', '010702', '020504']",0
+c9d4fd7e-e66b-465f-8d7e-afe4d6cef1ad,"ESAT - MICAS, Microelectronics and Sensors","['020209', '020299', '020207', '020303']",0
+f9fa0c23-606b-4455-99b3-15033bddba43,"Department of Electromechanical, Systems and Metal Engineering","['020504', '020304']",0
+ee7af0ca-408e-4144-85cc-85e5a9eec2ec,Centre for Surface Chemistry and Catalysis,"['010401', '010403']",0
+e590fc98-5179-468d-ab29-20ba6c44394b,Laboratory for Neuro- and Psychophysiology,"['030123', '030623', '050103', '050105', '050106']",0
+f9c2cdba-d92a-4b47-ba85-f4a4b4dc9740,Department of Philosophy and moral sciences,"['060302', '060303']",0
+37e63935-be43-4a88-8f83-97da12647a08,Department of Plant Biotechnology and Bioinformatics,"['020701', '010610', '010603']",0
+6485da95-0569-4fb0-b180-9fb402bc3924,Department of Green Chemistry and Technology,['010405'],0
+27cf76ad-4f94-4ca8-b223-a1c42ce23860,"Research Centre for Accounting & Taks, Brussels Campus",['050202'],0
+07fce545-f735-4a6b-9b40-02814a257bca,Rehabilitation Research Center,"['030622', '030126', '030402', '030405']",0
+0f542fff-9f66-44e3-ae5c-44ee1bcc99fe,Astronomy,['010301'],0
+41ec1094-0ea6-4da0-9777-3794a9a05440,Department of Environment,"['010703', '010702']",0
+86f8abb8-b972-41fd-9a1e-37758cfd4d06,"Department of Accountancy and Taxation, Antwerp Campus","['050201', '050204', '050205', '050209', '050210']",0
+5f3f66cc-4003-4831-9855-1a9db80e799b,Mecha(tro)nic System Dynamics (LMSD),['029999'],0
+0053b9e1-b5be-40f7-acc7-16b65e968727,Department of Biomedical molecular biology,['010404'],1
+086ed4b6-2916-4b9f-ac7c-05ad67f8c04a,Department of Public Governance and Management,['050206'],1
+d2188932-68aa-42c2-ae79-a7a7c087321c,Vriendenkring VUB,[],1
+26472cb7-8b0d-49f4-8b25-a5b75d37a4c0,Architecture and Design,"['020101', '060403', '060401', '020102', '060402']",1
+888b28bf-420c-459f-815e-634463f39bc0,BioMechanics (BMe),['030603'],1
+fb14da26-4419-420c-9289-738f31f22851,Architecture and Design,"['020101', '020102', '060401', '060402', '060403']",1
+0b80bc7a-ea97-457b-a25b-366a1779c4ce,"Division of Forest, Nature and Landscape","['010604', '010703', '010799', '040107', '010506', '020202', '029901', '020109', '060403', '060409']",1
+85ef251c-ab41-499b-aa27-c6cbe40dc380,Manufacturing Processes and Systems (MaPS),['020305'],1
+22358ad3-f0c0-4e35-88ca-7350f696036a,"Production Engineering, Machine Design and Automation (PMA) Section","['020203', '020303', '020308', '020802', '020305', '020399', '059901']",1
+960b6e0f-81e7-49eb-9e82-c1a0423d6a51,Division of Soil and Water Management,"['010704', '040103']",1
+bb29afde-b1cb-45eb-8ec6-5c3157603644,Department of Neurosciences,"['030123', '030623']",1
+ae0fd542-8bb0-4e90-93fa-47d48ca37e41,"Department of Mathematical Modelling, Statistics and Bio-informatics",['010603'],1
+60b45899-960b-4b3a-9abf-e795124ac8b5,Dean's Office of the Faculty of Medicine and Health Sciences,[],1
+5f4ab818-63ad-42cf-98b1-ec9da03776a5,Department of Pediatrics and medical genetics,['030129'],1
+34e6df10-3289-476d-9c7a-f9cd2417f4ae,Department of Molecular biotechnology,"['040104', '020701', '010608', '030120']",1
+f8a2c131-1e07-40cf-af96-caa670c0b1c8,Nuclear Medicine & Molecular Imaging,"['030118', '030618', '030504']",1
+2af46448-9095-4116-8fcf-6ae6b170cc0d,Mathematics-Physics-Informatics,[],1
+60e1f554-1c7c-43cb-a94e-0a2f867bb3be,Research Institute: Centre for Environmental Sciences,"['010601', '010604', '010610', '010703', '029999', '030302', '050201', '050502']",1
+60b59184-f95d-4c00-8b81-e382a891db90,Neurosciences,"['020601', '030104', '030123', '030223', '030623']",1
+e6cc2bcd-21a4-4266-b8f5-c74bed27478c,Faculty of Sciences,"['010101', '010102', '010103', '010106', '010107', '010201', '010202', '010204', '010205', '010207', '010208', '010209', '010304', '010306', '010311', '010401', '010402', '010403', '010405', '010406', '010601', '010602', '010604', '010605', '010607', '010608', '010609', '010610', '010701', '010703', '020504', '020506', '030102', '030121', '030303', '030604']",1
+16331166-453c-433c-b5cc-38653dcecc1c,Department of Pharmacology,['030116'],1
+9f8afdc7-d72b-4727-b397-6ae8d70a6d02,Chemistry-Biology-Geology,[],1
+eb6b8bd9-cbd1-4155-835f-93816dc4ca58,Faculty of Medicine and Life Sciences,"['030111', '030123', '030132', '030205', '030214', '030302', '030304', '030402']",1
+e86a9fc3-da2b-4f6b-8c28-88ec0d42ba69,Biology - Geology,[],1
+3d3e3cc9-0f76-41d9-9d03-d6cca2fb3b76,Zoology: Biodiversity and Toxicology,"['010601', '010604', '010605', '010607', '010609', '010701', '030121']",1
+b93f2caf-74d2-4440-9370-7f82a398498c,Physiology,"['030104', '030105', '030121', '030123', '030130', '030132', '030304', '030622']",1
+e3367e3c-eb17-4cbc-b6c9-4934c66296eb,Neurosciences,[],1
+f15720f8-954e-4fbe-9e9a-c3573427e5b5,Biomedical Research Institute,"['030232', '030501', '030604', '030605', '030614', '030621', '030622', '030623']",1
+811eccb0-d1b0-4cf3-a4c6-42659bafb66d,Department of Internal medicine,"['030628', '030616', '030699', '030116', '030632', '030228', '030216', '030128', '030403', '030299', '030232', '030199', '030499', '030399', '030132', '039999']",1
+5acb50b2-b5ed-4ee1-a5ff-b8ff21075ecc,Physics,[],1
+b6fed2a7-3acd-436c-8954-5dd49a3953e1,Department of Civil Engineering,"['010504', '020110', '020199', '020107', '020399', '020103', '029999']",1
+4a5a9444-9dd0-4562-9ee3-686d7629c79f,"Department of Economics, Leuven","['050204', '060104', '050201', '050205', '050209', '050210', '050203']",1
+747d1a0b-691d-45f8-8e9f-978e4eb2a7ac,Structural Mechanics,"['020110', '020104', '020106', '020105']",1
+86f5f452-38e3-4fe1-ba26-686a6fbc5a7a,Research Group Neurophysiology,"['030123', '030623', '050103', '050105', '050106']",1
+52e720c3-9f3a-4719-8250-c27aa11188d5,Electronic Circuits and Systems (ECS),"['020299', '020209', '020303', '020207']",1
+ab3545a5-11ef-4067-84dd-9cb5ddc3b2ea,Micro- and Nano Systems (MNS),['020204'],1
+d20e9e32-9776-41c1-a718-3ab557659231,"Membrane Separations, Adsorption, Catalysis, and Spectroscopy for Sustainable Solutions (cMACS)",['020401'],1
+17cf03fe-441e-444b-87f4-62214f211431,Department of Applied analytical and physical chemistry,"['010401', '010502', '010406']",1
+4de38627-7da8-4cd6-8b1e-5885812ee67e,Research Group for Musculoskeletal Rehabilitation,"['030126', '030402', '030405', '030626']",1
+172ee4c2-42bc-4e59-93f2-91f28a162f2a,Rehabilitation Sciences,"['030126', '030402', '030405', '030622']",1
+9dda9586-d8fd-45bc-b3bc-0040511d8f50,Department of Soil Management,['010704'],1
+9789e8e7-746a-46b5-8e3e-f8c5b6148e54,Mecha(tro)nic System Dynamics,['029999'],1
+fd34a10e-71f6-4db9-acc0-238983fdb834,"Research Centre Accountancy, Leuven",['050201'],1
+09df8bc5-bede-4232-8f5c-ece62f241fdc,"Leuven Centre for Aero & Space Science, Technology and Applications",['020301'],1
+b4b0de57-795f-464c-8fb7-77ca0e391ae4,Rehabilitation Sciences & Physiotherapy,[],1
+78b25da4-0f94-4607-ab73-24faf663611e,"Department of Flow, heat and combustion mechanics","['020309', '020407']",1

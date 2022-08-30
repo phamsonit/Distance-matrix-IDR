@@ -1,0 +1,124 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1> Number of groups= 2, MLS= 0.1404121863799283, Min_edge strength = 0.05128205128205128.</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 800px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"borderWidthSelected": 5, "color": "rgb(156, 203, 134)", "frequency": 31, "id": "corrosion", "label": "corrosion", "score_bucket": 1, "shape": "dot", "size": 20, "title": ["\u003ch4\u003eConcept: \u0027corrosion\u0027\u003c/h4\u003e\u003chr\u003eFrequency: 31"]}, {"borderWidthSelected": 5, "color": "rgb(156, 203, 134)", "frequency": 40, "id": "inspection", "label": "inspection", "score_bucket": 1, "shape": "dot", "size": 20, "title": ["\u003ch4\u003eConcept: \u0027inspection\u0027\u003c/h4\u003e\u003chr\u003eFrequency: 40"]}, {"borderWidthSelected": 5, "color": "rgb(238, 180, 121)", "frequency": 40, "id": "fatigue", "label": "fatigue", "score_bucket": 2, "shape": "dot", "size": 20, "title": ["\u003ch4\u003eConcept: \u0027fatigue\u0027\u003c/h4\u003e\u003chr\u003eFrequency: 40"]}, {"borderWidthSelected": 5, "color": "rgb(238, 180, 121)", "frequency": 260, "id": "optimization", "label": "optimization", "score_bucket": 2, "shape": "dot", "size": 20, "title": ["\u003ch4\u003eConcept: \u0027optimization\u0027\u003c/h4\u003e\u003chr\u003eFrequency: 260"]}, {"borderWidthSelected": 5, "color": "rgb(238, 180, 121)", "frequency": 15, "id": "wind farms", "label": "wind farms", "score_bucket": 2, "shape": "dot", "size": 20, "title": ["\u003ch4\u003eConcept: \u0027wind farms\u0027\u003c/h4\u003e\u003chr\u003eFrequency: 15"]}, {"borderWidthSelected": 5, "color": "rgb(238, 180, 121)", "frequency": 6, "id": "offshore wind farms", "label": "offshore wind farms", "score_bucket": 2, "shape": "dot", "size": 20, "title": ["\u003ch4\u003eConcept: \u0027offshore wind farms\u0027\u003c/h4\u003e\u003chr\u003eFrequency: 6"]}, {"borderWidthSelected": 5, "color": "rgb(0, 147, 146)", "frequency": 24, "id": "numerical simulations", "label": "numerical simulations", "score_bucket": 0, "shape": "dot", "size": 20, "title": ["\u003ch4\u003eConcept: \u0027numerical simulations\u0027\u003c/h4\u003e\u003chr\u003eFrequency: 24"]}]);
+        edges = new vis.DataSet([{"color": "rgb(156, 203, 134)", "from": "corrosion", "title": 0.13333333333333333, "to": "inspection", "value": 0.13333333333333333, "weight": 0.13333333333333333}, {"color": "rgb(156, 203, 134)", "from": "fatigue", "title": 0.07692307692307693, "to": "optimization", "value": 0.07692307692307693, "weight": 0.07692307692307693}, {"color": "rgb(156, 203, 134)", "from": "fatigue", "title": 0.07142857142857142, "to": "wind farms", "value": 0.07142857142857142, "weight": 0.07142857142857142}, {"color": "rgb(156, 203, 134)", "from": "offshore wind farms", "title": 1.0, "to": "wind farms", "value": 1.0, "weight": 1.0}, {"color": "rgb(156, 203, 134)", "from": "optimization", "title": 0.35714285714285715, "to": "wind farms", "value": 0.35714285714285715, "weight": 0.35714285714285715}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": true,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.2,
+            "damping": 0.09,
+            "nodeDistance": 300,
+            "springConstant": 0.05,
+            "springLength": 200
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
